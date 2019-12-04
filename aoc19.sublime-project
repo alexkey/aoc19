@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+
+    "settings": {
+        "python_interpreter": "$project_path/.venv/bin/python",
+        "python_package_paths": [],
+
+        "SublimeLinter.linters.pylint.executable": "$project_path/.venv/bin/pylint",
+        "SublimeLinter.linters.pylint.paths": ["$project_path/.venv/lib/python3.8/site-packages"],
+
+        "SublimeLinter.linters.mypy.executable": "$project_path/.venv/bin/mypy",
+        "SublimeLinter.linters.mypy.cache-dir": "$project_path/.mypy_cache",
+        "SublimeLinter.linters.mypy.config-file": "$project_path/mypy.ini",
+        "SublimeLinter.linters.mypy.follow-imports": "silent",
+    }
+}
